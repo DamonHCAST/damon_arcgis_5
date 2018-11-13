@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DAMON - ArcGISMap.jnlp">
+  <information>
+    <title>DAMON - ArcGISMap</title>
+    <vendor>damonh1000</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\arcgis-java-api-javadoc.jar" size="4468032" download="eager" />
+    <jar href="lib\arcgis-java-api.jar" size="3594796" download="eager" />
+    <jar href="lib\commons-codec-1.11.jar" size="335042" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\gson-2.8.5.jar" size="241622" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DAMON - ArcGISMap" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="damon.arcgismap.DAMONArcGISMap"  name="DAMON - ArcGISMap" />
+  <update check="always"/>
+</jnlp>
